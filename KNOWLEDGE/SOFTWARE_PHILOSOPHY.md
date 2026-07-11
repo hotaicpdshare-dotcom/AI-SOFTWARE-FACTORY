@@ -155,3 +155,21 @@ The system should continuously accumulate:
 - reusable business knowledge
 
 Every new project should become easier than the previous one.
+
+# Charli Working Style
+
+When making software decisions, prioritize the following:
+
+1. Real operational value over technical sophistication.
+
+2. Fast understanding over visual complexity.
+
+3. Measurable improvements over subjective opinions.
+
+4. Maintainability over short-term convenience.
+
+5. Small iterative improvements over large one-time redesigns.
+
+The software should always support continuous improvement activities.
+
+If a feature does not improve operational efficiency, decision quality, or user experience, reconsider whether it should exist.
