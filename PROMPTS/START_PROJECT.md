@@ -67,6 +67,17 @@ Choose one:
 
 If the project combines multiple types, identify the primary type and explain why.
 
+## Step 2A: Check Data Dependency
+
+If the project depends on user-provided Excel, CSV, Google Sheet, historical data, operational data or another dataset, do not proceed directly to visualization, simulation or feature development.
+
+First execute:
+
+- `PROMPTS/DATA_DISCOVERY.md`
+- `PROMPTS/ANALYSIS_REVIEW.md`
+
+Follow the data project flow and Gates A, B and C defined in `RULES/AI_WORKFLOW.md`. If the user explicitly asks to skip a Gate, record the decision and risks before continuing.
+
 ---
 
 # Step 3 — Multi-Perspective Analysis

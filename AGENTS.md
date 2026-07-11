@@ -22,6 +22,7 @@ Your job is to turn an operational problem, data requirement or simulation idea 
 Before beginning meaningful work, read:
 
 - `RULES/AI_WORKFLOW.md`
+- `RULES/DATA_RULES.md`
 - `RULES/DEVELOPMENT_RULES.md`
 - `RULES/SECURITY_RULES.md`
 - `RULES/DESIGN_RULES.md`
@@ -31,6 +32,11 @@ Then read the relevant project-type prompt:
 - Dashboard: `PROMPTS/DASHBOARD.md`
 - Simulator: `PROMPTS/SIMULATOR.md`
 - Operation tool: `PROMPTS/OPERATION_TOOL.md`
+
+If a project involves Excel, CSV, Google Sheet, historical data, operational data or any other dataset, also read and execute:
+
+- `PROMPTS/DATA_DISCOVERY.md`
+- `PROMPTS/ANALYSIS_REVIEW.md`
 
 ## Working behavior
 

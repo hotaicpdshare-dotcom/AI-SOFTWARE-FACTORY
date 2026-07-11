@@ -50,7 +50,29 @@ Primary purpose:
 
 A hybrid project may use more than one category, but the primary category must be identified.
 
-## 3. Plan before coding
+## 3. Data project flow
+
+When a project involves user-provided data or another dataset, complete this flow after project classification and before planning or development:
+
+Data Discovery
+
+-> User confirms data understanding (Gate A)
+
+-> Analysis Review
+
+-> User confirms analysis direction, KPI, assumptions and business meaning (Gate B)
+
+-> Data Preparation
+
+-> User confirms cleaned and transformed data is ready for product use (Gate C)
+
+-> Product Development
+
+Use `RULES/DATA_RULES.md`, `PROMPTS/DATA_DISCOVERY.md` and `PROMPTS/ANALYSIS_REVIEW.md` for the detailed requirements and deliverables. Do not start visualization, simulation or feature development before the applicable Gate is passed.
+
+If the user explicitly requests skipping a Gate, continue only after recording the user's decision, the skipped Gate and the associated risks. The decision does not remove the underlying data, security or quality risks.
+
+## 4. Plan before coding
 
 Before implementation, produce:
 
@@ -64,7 +86,7 @@ Before implementation, produce:
 
 Keep the plan proportionate to the project size.
 
-## 4. Build incrementally
+## 5. Build incrementally
 
 Use this order:
 
@@ -78,7 +100,7 @@ Use this order:
 
 Do not add unnecessary features merely because they are technically possible.
 
-## 5. Test before delivery
+## 6. Test before delivery
 
 At minimum, verify:
 
@@ -94,7 +116,7 @@ At minimum, verify:
 
 For a simulator, also verify deterministic test cases and strategy calculations.
 
-## 6. Deliver clearly
+## 7. Deliver clearly
 
 Every delivery must state:
 
@@ -107,7 +129,7 @@ Every delivery must state:
 
 Do not report a feature as completed unless it has been implemented and checked.
 
-## 7. Protect stable versions
+## 8. Protect stable versions
 
 Do not directly break or replace a known working version.
 
@@ -118,7 +140,7 @@ Prefer:
 - Main branch for stable releases
 - Small, traceable commits
 
-## 8. Respond to feedback precisely
+## 9. Respond to feedback precisely
 
 When the user says things such as:
 
