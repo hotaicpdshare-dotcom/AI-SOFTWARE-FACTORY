@@ -1,0 +1,49 @@
+# Local and sensitive data
+data/raw/**
+data/processed/**
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Safe sample data may be committed when anonymized or fictional.
+*.xlsx
+*.xls
+*.xlsm
+*.parquet
+*.sqlite
+*.db
+*.csv
+!data/sample/
+!data/sample/**
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables, credentials and keys
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.cer
+credentials.json
+service-account*.json
+
+# Temporary and system files
+*.tmp
+*.temp
+*.log
+.DS_Store
+Thumbs.db
+~$*
+
