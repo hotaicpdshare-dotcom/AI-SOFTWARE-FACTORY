@@ -1,33 +1,97 @@
-Waiting Dashboard
+# Lessons Learned
 
-曾經：
+This document captures engineering knowledge gained from completed projects.
 
-文字太小
+Its purpose is not to record history.
 
-↓
+Its purpose is to improve future decision making.
 
-改16px
+Every lesson should help future projects become faster, simpler and more reliable.
 
-------------
+---
 
-Heatmap
+# How to use this document
 
-曾經：
+Before starting a new project or modifying an existing one,
 
-太花
+review this document.
 
-↓
+If a similar problem has already been solved,
 
-改深色
+reuse the knowledge instead of solving it again.
 
-------------
+---
 
-Operation Tool
+# Lesson Template
 
-曾經：
+## Title
 
-按鈕太小
+### Project
 
-↓
+### Problem
 
-48px
+What happened?
+
+### Root Cause
+
+Why did it happen?
+
+Separate symptoms from root causes.
+
+### Alternatives Considered
+
+What possible solutions were evaluated?
+
+Why were they rejected?
+
+### Final Decision
+
+Which solution was chosen?
+
+Why?
+
+### Result
+
+What improved?
+
+What trade-offs remain?
+
+### General Principle
+
+What engineering principle can be extracted?
+
+### Reusable Knowledge
+
+How should future projects benefit from this lesson?
+
+---
+
+# Lessons
+
+(No lessons yet.)
+
+Every completed project should contribute at least one lesson whenever meaningful new knowledge is gained.
+
+---
+
+# Knowledge Quality
+
+A good lesson should:
+
+- Explain why.
+- Not only explain what.
+- Be reusable.
+- Be understandable months later.
+- Prevent repeating mistakes.
+
+---
+
+# Continuous Improvement
+
+The value of this repository does not come from the number of projects.
+
+It comes from the accumulation of reusable engineering knowledge.
+
+Every solved problem should make future software easier to build.
+
+Every lesson should improve the AI Software Factory itself.
