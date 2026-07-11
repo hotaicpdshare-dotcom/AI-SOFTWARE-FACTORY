@@ -34,8 +34,24 @@ Never assume how the current system works.
 Understand it first.
 
 ---
+# Step -1 — Review Previous Lessons
 
-# Step 1 — Understand User Feedback
+Before analyzing the current issue,
+
+review:
+
+KNOWLEDGE/LessonsLearned.md
+
+Determine whether a similar issue has already been solved.
+
+Reuse previous experience whenever possible.
+
+Avoid repeating past mistakes.
+
+Every resolved issue should become future knowledge.
+
+
+# Step 2 — Understand User Feedback
 
 Summarize the user's feedback.
 
@@ -69,7 +85,7 @@ Update design system if necessary.
 
 ---
 
-# Step 2 — Root Cause Analysis
+# Step 3 — Root Cause Analysis
 
 Identify the actual cause.
 
@@ -97,7 +113,7 @@ Do not modify code before identifying the likely root cause.
 
 ---
 
-# Step 3 — Impact Analysis
+# Step 4 — Impact Analysis
 
 Before changing anything, identify:
 
@@ -113,7 +129,7 @@ Prefer the smallest safe modification.
 
 ---
 
-# Step 4 — Improvement Proposal
+# Step 5 — Improvement Proposal
 
 Provide:
 
@@ -141,7 +157,7 @@ compare them briefly.
 
 ---
 
-# Step 5 — Implementation
+# Step 6 — Implementation
 
 Only after analysis,
 
@@ -159,7 +175,7 @@ Avoid unnecessary refactoring.
 
 ---
 
-# Step 6 — Regression Testing
+# Step 7 — Regression Testing
 
 After modification,
 
@@ -187,7 +203,7 @@ Verify them.
 
 ---
 
-# Step 7 — Review Summary
+# Step 8 — Review Summary
 
 Deliver:
 
